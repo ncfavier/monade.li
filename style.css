@@ -33,7 +33,6 @@ a {
 
 #links {
     clear: both;
-    padding-left: 100px;
     list-style: none;
 }
 
@@ -65,6 +64,10 @@ footer {
 
     #title small {
         margin-right: 30px;
+    }
+
+    #links {
+        padding-left: 100px;
     }
 
     footer {
