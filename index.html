@@ -22,11 +22,16 @@
                 font-weight: lighter;
             }
 
-            pre::after {
+            body:not(.fleuron) pre::after {
                 content: '🍋';
                 font-size: 2em;
                 line-height: 3;
-                filter: grayscale(100%);
+            }
+
+            body.fleuron pre::after {
+                content: '❧';
+                font-size: 5em;
+                line-height: 1;
             }
 
             a {
@@ -52,5 +57,9 @@
 
             I do <a href="https://git.monade.li/nai">stuff</a> with computers.
         </pre>
+        <script>
+            if (new URLSearchParams(window.location.search).has('fleuron'))
+                document.body.classList.add('fleuron')
+        </script>
     </body>
 </html>
