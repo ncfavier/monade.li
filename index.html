@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>limonade.</title>
-        <link rel="icon" href="favicon.png">
+        <link rel="icon" href="favicon.ico">
         <style>
             body {
                 height: 100vh;
@@ -17,27 +17,15 @@
             pre {
                 white-space: pre-line;
                 text-align: center;
-                line-height: 1.6;
-                font-size: 1.2em;
+                line-height: 1.8;
+                font-family: 'Office Code Pro', 'Source Code Pro', 'Noto Sans Mono', monospace;
                 font-weight: lighter;
-            }
-
-            body:not(.fleuron) pre::after {
-                content: '🍋';
-                font-size: 2em;
-                line-height: 3;
-            }
-
-            body.fleuron pre::after {
-                content: '❧';
-                font-size: 5em;
-                line-height: 1;
             }
 
             a {
                 color: #11abdd;
                 text-decoration-style: dashed;
-                font-style: italic;
+                font-weight: normal;
             }
 
             a:hover {
@@ -56,10 +44,8 @@
             I'm <strong>Naïm</strong>.
 
             I do <a href="https://git.monade.li/nai">stuff</a> with computers.
+
+            <img src="icon.svg" height=50>
         </pre>
-        <script>
-            if (new URLSearchParams(window.location.search).has('fleuron'))
-                document.body.classList.add('fleuron')
-        </script>
     </body>
 </html>
