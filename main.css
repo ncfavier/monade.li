@@ -5,7 +5,8 @@
 
 body {
     max-width: 480px;
-    margin: 50px auto;
+    margin: 30px auto;
+    padding: 0 15px;
     color: var(--foreground);
     font-family: serif;
     font-size: 1.1em;
@@ -24,12 +25,12 @@ a:visited {
 #about {
     white-space: pre-line;
     border-bottom: 1px solid var(--foreground);
-    padding: 20px 0;
+    padding-bottom: 20px;
 }
 
 blockquote {
-    font-style: italic;
     white-space: pre-line;
+    font-style: italic;
 }
 
 cite {
