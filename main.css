@@ -1,0 +1,38 @@
+:root {
+    --foreground: #444;
+    --accent: #f08;
+}
+
+body {
+    max-width: 480px;
+    margin: 50px auto;
+    color: var(--foreground);
+    font-family: serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+a:visited {
+    color: var(--accent);
+}
+
+#about {
+    white-space: pre-line;
+    border-bottom: 1px solid var(--foreground);
+    padding: 20px 0;
+}
+
+blockquote {
+    font-style: italic;
+    white-space: pre-line;
+}
+
+cite {
+    font-style: normal;
+    font-size: 0.8em;
+}
