@@ -47,6 +47,8 @@ hr {
 }
 
 blockquote {
+    margin-left: 25px;
+    margin-right: 10px;
     font-style: italic;
 }
 
