@@ -1,16 +1,28 @@
 :root {
     --foreground: #444;
+    --foreground-light: #ddd;
     --accent: #f08;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    max-width: 480px;
-    margin: 30px auto;
-    padding: 0 15px;
-    color: var(--foreground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: serif;
     font-size: 1.1em;
     line-height: 1.6;
+    color: var(--foreground);
+}
+
+code {
+    border: 1px solid var(--foreground-light);
+    border-radius: 3px;
+    padding: 2px;
 }
 
 a {
@@ -22,14 +34,15 @@ a:visited {
     color: var(--accent);
 }
 
-#about {
-    white-space: pre-line;
-    border-bottom: 1px solid var(--foreground);
-    padding-bottom: 20px;
+hr {
+    border-color: var(--foreground-light);
+}
+
+#poem {
+    font-family: serif;
 }
 
 blockquote {
-    white-space: pre-line;
     font-style: italic;
 }
 
