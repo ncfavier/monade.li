@@ -34,6 +34,10 @@ a:visited {
     color: var(--accent);
 }
 
+#contents {
+    padding: 25px 15px;
+}
+
 hr {
     border-color: var(--foreground-light);
 }
