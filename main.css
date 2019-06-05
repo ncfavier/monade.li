@@ -2,10 +2,7 @@
     --foreground: #333;
     --foreground-light: #ddd;
     --accent: #f08;
-}
-
-::selection {
-    background-color: #fde;
+    --accent-light: #f082;
 }
 
 html, body {
@@ -17,14 +14,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: serif;
     font-size: 1.1em;
     line-height: 1.6;
     color: var(--foreground);
 }
 
+::selection {
+    background-color: var(--accent-light);
+}
+
 main {
     padding: 25px 15px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 1px solid var(--foreground-light);
 }
 
 h1 {
@@ -48,13 +56,10 @@ code {
     padding: 2px;
 }
 
-hr {
-    border-color: var(--foreground-light);
-}
-
 blockquote {
     margin-left: 25px;
     margin-right: 10px;
+    font-family: serif;
     font-style: italic;
 }
 
