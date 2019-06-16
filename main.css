@@ -20,7 +20,8 @@ body {
 }
 
 ::selection {
-    background-color: var(--accent-light);
+    background-color: var(--accent);
+    color: white;
 }
 
 main {
