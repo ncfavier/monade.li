@@ -1,8 +1,7 @@
 :root {
-    --foreground: #333;
+    --foreground: black;
     --foreground-light: #ddd;
-    --accent: #f08;
-    --accent-light: #f082;
+    --accent: #f800c9;
 }
 
 html, body {
