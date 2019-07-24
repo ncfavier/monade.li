@@ -1,7 +1,7 @@
 :root {
     --foreground: black;
     --foreground-light: #ddd;
-    --accent: #f800c9;
+    --accent: #f07;
 }
 
 html, body {
@@ -44,6 +44,7 @@ h1 {
 
 a {
     text-decoration: none;
+    font-weight: bold;
     color: var(--accent);
 }
 
