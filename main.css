@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
 :root {
     --foreground: black;
     --foreground-light: #ddd;
-    --accent: #f07;
+    --accent: #f08;
+    --font: Lora, serif;
 }
 
 html, body {
@@ -13,8 +16,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
-    font-size: 1.1em;
+    font-family: var(--font);
+    font-size: 1.2em;
     line-height: 1.6;
     color: var(--foreground);
 }
@@ -26,20 +29,12 @@ body {
 
 main {
     padding: 25px 15px;
-}
-
-header {
-    margin-bottom: 20px;
-}
-
-footer {
-    border-top: 1px solid var(--foreground-light);
+    text-align: center;
 }
 
 h1 {
     margin: 0;
     font-size: 1em;
-    font-weight: bold;
 }
 
 a {
@@ -48,28 +43,8 @@ a {
     color: var(--accent);
 }
 
-a:visited {
-    color: var(--accent);
-}
-
 code {
     border: 1px solid var(--foreground-light);
     border-radius: 3px;
-    padding: 2px;
-}
-
-blockquote {
-    margin-left: 25px;
-    margin-right: 10px;
-    font-family: serif;
-    font-style: italic;
-}
-
-cite {
-    font-style: normal;
-    font-size: 0.8em;
-}
-
-cite::before {
-    content: "— ";
+    padding: 3px;
 }
