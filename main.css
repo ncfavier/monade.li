@@ -2,7 +2,7 @@
 
 :root {
     --foreground: black;
-    --foreground-light: #eee;
+    --foreground-light: #f2f2f2;
     --accent: #f08;
     --font: Lora, serif;
 }
