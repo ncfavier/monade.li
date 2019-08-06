@@ -2,7 +2,7 @@
 
 :root {
     --foreground: black;
-    --foreground-light: #f2f2f2;
+    --foreground-light: #eee;
     --accent: #f08;
     --font: Lora, serif;
 }
@@ -45,5 +45,6 @@ a {
 
 code {
     background-color: var(--foreground-light);
-    padding: 4px;
+    padding: 5px;
+    border-radius: 4px;
 }
