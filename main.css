@@ -1,6 +1,5 @@
 :root {
     --foreground: black;
-    --foreground-light: #f2f2f2;
     --accent: #f08;
     --font: monospace;
 }
@@ -15,16 +14,15 @@ body {
     color: var(--foreground);
     font-family: var(--font);
     font-size: 1.2em;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 a {
     color: var(--foreground);
     text-decoration: none;
-    padding: 5px;
-    border: 1px solid black;
-}
+    padding: 4px;
+    border: 1px solid var(--foreground);
 
 a:hover {
-    color: var(--accent);
+    text-decoration: underline;
 }
