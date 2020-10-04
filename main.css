@@ -20,9 +20,10 @@ body {
 a {
     color: var(--foreground);
     text-decoration: none;
-    padding: 4px;
+    padding: 2px;
     border: 1px solid var(--foreground);
+}
 
 a:hover {
-    text-decoration: underline;
+    border-color: var(--accent);
 }
