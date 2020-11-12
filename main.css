@@ -14,13 +14,13 @@ body {
     color: var(--foreground);
     font-family: var(--font);
     font-size: 1.2em;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 a {
     color: var(--foreground);
     text-decoration: none;
-    padding: 2px;
+    padding: 3px 6px;
     border: 1px solid var(--foreground);
 }
 
