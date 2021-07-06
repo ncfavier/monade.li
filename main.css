@@ -1,6 +1,19 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: white;
+        --foreground: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: black;
+        --foreground: white;
+    }
+}
+
 :root {
-    --foreground: black;
-    --accent: #f0d;
+    --accent: #f0c;
     --font: monospace;
 }
 
@@ -10,7 +23,8 @@
 }
 
 body {
-    margin: 50px 30px;
+    margin: 30px;
+    background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font);
     font-size: 1.2em;
