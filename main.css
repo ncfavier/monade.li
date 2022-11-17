@@ -7,18 +7,18 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: black;
+        --background: #202;
         --foreground: white;
     }
 }
 
 :root {
     --accent: #f0c;
-    --font: monospace;
+    --font: JuliaMono, "Source Code Pro", Iosevka, monospace;
 }
 
 ::selection {
-    background-color: var(--accent);
+    background-color: #c8b;
     color: white;
 }
 
@@ -27,8 +27,11 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--font);
-    font-size: 1.2em;
-    line-height: 2;
+    line-height: 2.5em;
+}
+
+pre {
+    font-family: var(--font);
 }
 
 a {
