@@ -7,7 +7,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #101;
+        --background: black;
         --foreground: white;
     }
 }
@@ -18,7 +18,7 @@
 }
 
 ::selection {
-    background-color: #c8b;
+    background-color: #c0b;
     color: white;
 }
 
@@ -30,12 +30,8 @@ body {
     line-height: 2.5em;
 }
 
-pre {
-    font-family: var(--font);
-}
-
 a {
-    color: var(--foreground);
+    color: inherit;
     text-decoration: none;
     padding: 3px 6px;
     border: 1px solid var(--foreground);
@@ -43,4 +39,21 @@ a {
 
 a:hover {
     border-color: var(--accent);
+}
+
+table#info {
+    border-collapse: collapse;
+}
+
+table#info td + td {
+    border-left: 1px solid var(--foreground);
+}
+
+table#info td {
+    padding: 0 1.5em;
+    margin: 0;
+}
+
+table#info td:first-child {
+    text-align: right;
 }
