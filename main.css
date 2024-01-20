@@ -13,12 +13,12 @@
 }
 
 :root {
-    --accent: #f0c;
+    --accent: #b603ff;
     --font: JuliaMono, "Source Code Pro", Iosevka, monospace;
 }
 
 ::selection {
-    background-color: #c0b;
+    background-color: var(--accent);
     color: white;
 }
 
