@@ -2,28 +2,206 @@
 <html lang=en>
   <head>
     <meta charset="UTF-8">
-    <title>monade.li</title>
+    <title>Naïm Camille Favier</title>
     <meta name=author content="Naïm Camille Favier">
-    <meta name=description content="Naïm Camille Favier's website">
+    <meta name=description content="Naïm Camille Favier's web page">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel=icon type="image/png" href="favicon.png">
     <link rel=stylesheet href="main.css">
   </head>
   <body>
-    <p id=avatar>
-      <img src="https://www.gravatar.com/avatar/1fea7494d69948ab0a50d9ee9318ae50?s=180" height=180 alt=avatar>
+    <p id=avatar style="float: right; margin-left: 20px; margin-bottom: 20px">
+      <img src="avatar.png" height=200 alt="My avatar">
     </p>
-    <p id=name>
-      <strong><abbr title="نعیم, /na'im/, na-EEM">Naïm</abbr> Camille Favier</strong> (any pronouns)
+    <p id=hi>
+      Hi!
     </p>
-    <table id=info>
-      <tbody>
-        <tr><td>IRC</td><td><strong>ncf</strong> @ <a href="https://libera.chat">Libera</a></td></tr>
-        <tr><td>GitHub</td><td><a href="https://github.com/ncfavier"><strong>ncfavier</strong></a></td></tr>
-        <tr><td>email</td><td><a href="mailto:n@monade.li"><strong>n</strong>@monade.li</a></td></tr>
-        <tr><td>Fediverse</td><td><a rel=me href="https://types.pl/@ncf"><strong>@ncf</strong>@types.pl</a></td></tr>
-        <tr><td>PGP</td><td><a href="pub.asc">F3EB 4BBB 4E71 99BC 299C D4E9 95AF CE82 1190 8325</a></td></tr>
-      </tbody>
-    </table>
+    <p id=me>
+      My name is <strong>Naïm Camille Favier</strong> (/na'im ka.mij fa.vje/, na-EEM, <strong>نعیم</strong>).<br>
+      My pronouns are <strong>he</strong>, <strong>they</strong>, or anything else.<br>
+      My native language is French.
+      Here's an actual <a href="face.jpg">picture of me</a>.
+    </p>
+    <p id=work>
+      Since 2024, I am a PhD student in the <a href="https://www.chalmers.se/en/departments/cse/our-research/computing-science/logic-and-types/">Logic and Types</a> unit at Chalmers University of Technology, in Göteborg, Sweden, working on formalising cubical type theory. My supervisor is <a href="https://www.cse.chalmers.se/~nad/">Nils Anders Danielsson</a>.
+    </p>
+    <p id=scientific-interests>
+      My scientific interests revolve around the <a href="https://ncatlab.org/nlab/show/computational+trilogy">computational trilogy</a>: the profound interplay between the seemingly distant fields of computer science, logic and geometry. More specifically, I am interested in:
+    </p>
+    <ul>
+      <li>dependent type theory, particularly <a href="https://homotopytypetheory.org/book/">homotopy type theory</a> and the univalent foundations of mathematics</li>
+      <li>category theory and ∞-analogues</li>
+      <li>constructive mathematics</li>
+      <li>formalised mathematics, especially in the <a href="https://wiki.portal.chalmers.se/agda/pmwiki.php">Agda</a> proof assistant</li>
+      <li>pure functional programming</li>
+    </ul>
+    <p id=places>
+      Here are some other places you can find me on the Internet:
+    </p>
+    <ul>
+      <li>by email at <a class="mono" href="mailto:n@monade.li">n@monade.li</a> (personal) or <a class="mono" href="mailto:naimf@chalmers.se">naimf@chalmers.se</a> (academic)</li>
+      <li>on the Fediverse: <a class="mono" rel=me href="https://types.pl/@ncf">@ncf@types.pl</a></li>
+      <li>on IRC: <span class="mono">ncf</span> at <a class="mono" href="https://libera.chat/">libera.chat</a> (<span class="mono">#agda</span>, <span class="mono">##dependent</span>, <span class="mono">#categorytheory</span>, …)</li>
+      <li>on various Zulip servers (<a href="https://agda.zulipchat.com/">Agda</a>, <a href="https://hott.zulipchat.com/">HoTT</a>, <a href="https://categorytheory.zulipchat.com/">Category Theory</a>)</li>
+      <li>on GitHub: <a class="mono" href="https://github.com/ncfavier">ncfavier</a></li>
+      <li>on <a href="https://stackexchange.com/users/5255708/na%c3%afm-favier?tab=accounts">StackExchange</a></li>
+      <li>my ORCID is <a href="https://orcid.org/0000-0001-9708-624X">0000-0001-9708-624X</a> and my academic web page is <a href="https://www.chalmers.se/en/persons/naimf/">here</a></li>
+    </ul>
+    <p id=pgp>
+      My PGP key has fingerprint <a class="mono" href="pub.asc">F3EB 4BBB 4E71 99BC 299C D4E9 95AF CE82 1190 8325</a>.
+    </p>
+    <h2 id=stuff-i-did>Stuff I did</h2>
+    <ul>
+      <li>I have been a <a href="https://github.com/the1lab/1lab/commits?author=ncfavier">contributor</a> to the <a href="https://1lab.dev">1Lab 🧊</a>, a discoverable library of formalised (univalent) mathematics written in <a href="https://agda.readthedocs.io/en/latest/language/cubical.html">Cubical Agda</a>, an implementation of cubical type theory.</li>
+      <li>My formalisation whims that are too silly for the 1Lab are in <a href="https://agda.monade.li">cubical-experiments</a>.</li>
+      <li>Previously, I wrote a type-checker and evaluator for <a href="https://glam.monade.li">a polymorphic version of the guarded λ-calculus</a>, during a research internship supervised by <a href="https://guilhem.jaber.fr/">Guilhem Jaber</a>.</li>
+      <li>I wrote a <a href="https://github.com/ncfavier/jq-optics">toy implementation</a> of the <a href="https://jqlang.org/">jq</a> language using a monadic variation on van Laarhoven traversals.</li>
+    </ul>
+    <h2 id=music>Music</h2>
+    <p>
+      My main non-scientific interest is music. I play the piano and I have a classical background, but I mostly listen to jazz and <a href="https://en.wikipedia.org/wiki/Progressive_rock">progressive rock</a>.
+    </p>
+    <details>
+      <summary>Some musicians and bands I like</summary>
+      <p>
+        <strong>Classical</strong>.
+        <a title="Moment musical no. 4 (Nikolai Lugansky)" href="https://www.youtube.com/watch?v=WhLDse5R8dQ">Sergei Rachmaninoff</a>.
+        <a title="Étude op. 25 no. 5 “Wrong Note” (Yunchan Lim)" href="https://www.youtube.com/watch?v=sM_JwLchWaE">Frédéric Chopin</a>.
+        <a title="Violin Sonata in A major (Isaac Stern, Alexander Zakin)" href="https://www.youtube.com/watch?v=DIlPaqmcklk">César Franck</a>.
+        <a title="Partita no. 2 in D minor, BWV 1004 (Itzhak Perlman)" href="https://youtu.be/qtyTaE7LvVs?t=56">Johann Sebastian Bach</a>.
+        <a title="The Rite of Spring (Radio Filharmonisch Orkest)" href="https://www.youtube.com/watch?v=5UJOaGIhG7A">Igor Stravinsky</a>.
+        <a title="Piano Sonata op. 7 (Katarina Andjelkovic)" href="https://www.youtube.com/watch?v=eV0w7ufts9w">Edvard Grieg</a>.
+      </p>
+      <p>
+        <strong>Jazz-ish</strong>.
+        <a title="What the Waves Brought" href="https://www.youtube.com/watch?v=pVN36Ou4BUU">Tigran Hamasyan</a>.
+        <a title="Desire" href="https://www.youtube.com/watch?v=EFeouD2IWSA">Hiromi Uehara</a>.
+        <a title="Pichi" href="https://www.youtube.com/watch?v=G4KAGAFeg1g">Jesús Molina</a>.
+        <a title="Donna Lee" href="https://www.youtube.com/watch?v=dR155fY2MXk">Eldar Djangirov</a>.
+        <a title="Seven Seas" href="https://www.youtube.com/watch?v=t9WEw8krFxI">Avishai Cohen</a>.
+        <a href="https://www.youtube.com/watch?v=2E1QuzrzoiU">Əzizə Mustafazadə</a>.
+        <a title="It's All Nothing Until It's Everything" href="https://www.youtube.com/watch?v=NDpeHQUSWT0">KNOWER</a>.
+        <a title="Funck" href="https://www.youtube.com/watch?v=0q_nlAA5lIg">Rafa Rodriguez</a>.
+        <a title="La Place du Mort" href="https://www.youtube.com/watch?v=n85GzSaerDk">Les Doigts de l'Homme</a>.
+        <a title="Sniff" href="https://www.youtube.com/watch?v=EJDARjzHhZE">DOMi & JD Beck</a>.
+        <a title="Earthquake" href="https://www.youtube.com/watch?v=TTwYFfSmXfI">Valeriy Stepanov</a>.
+        <a title="Days of Wine and Roses" href="https://www.youtube.com/watch?v=B_qX-PX7QU4">Varra</a>.
+        <a title="From Within" href="https://www.youtube.com/watch?v=axTfqxahqEE">Michel Camilo</a>.
+        <a title="Lingus" href="https://www.youtube.com/watch?v=L_XJ_s5IsQc">Snarky Puppy</a>.
+        <a title="Ornamental Boogie" href="https://www.youtube.com/watch?v=QAoc1l0fxsI">Farmers Market</a>.
+        <a title="Shakti - La Danse du Bonheur" href="https://www.youtube.com/watch?v=nF-JMaspuVg">Guy Bernfeld</a>.
+      </p>
+      <p>
+        <strong>Prog-ish</strong>.
+        <a title="Blink" href="https://www.youtube.com/watch?v=L-AIeEjlymc">Aviations</a>.
+        <a title="Dew" href="https://www.youtube.com/watch?v=Wfj74YEaZnE">CHON</a>.
+        <a title="Micro-Aggressions" href="https://www.youtube.com/watch?v=jGDXjY8ARLY">Animals as Leaders</a>.
+        <a title="Earthshine" href="https://www.youtube.com/watch?v=IT6e-h6P7Uo">Arch Echo</a>.
+        <a title="Mute" href="https://www.youtube.com/watch?v=v99dHD9oWfU">Native Construct</a>.
+        <a title="Vertigo" href="https://www.youtube.com/watch?v=nt8LO0boWT8">GEM</a>.
+        <a title="Scene Seven: I. The Dance of Eternity" href="https://www.youtube.com/watch?v=eYCYGpu0OxM">Dream Theater</a>.
+        <a title="Car Pool Tunnel" href="https://www.youtube.com/watch?v=_xzmwNnRT6M">Loam</a>.
+        <a title="Rock Is Too Heavy" href="https://www.youtube.com/watch?v=tbk4BZMeYNY">Owane</a>.
+        <a title="Sweet Dream Parfait" href="https://www.youtube.com/watch?v=GTl2mPN6qzo">Seda</a>.
+        <a title="I Just Got This Symphony Goin'" href="https://www.youtube.com/watch?v=4bMGBb_lyB0">The Fall of Troy</a>.
+        <a title="Sea of Suns" href="https://www.youtube.com/watch?v=QhnTqqHrXMw">The Helix Nebula</a>.
+        <a title="Heart of the World" href="https://www.youtube.com/watch?v=RkyBRKBkuMY">DEZOLVE</a>.
+        <a title="Full Circle" href="https://www.youtube.com/watch?v=N0dEGKcBJzc">The Omnific</a>.
+        <a title="A Progression to Infinity" href="https://www.youtube.com/watch?v=DDxuUIpQLKk">The Resonance Project</a>.
+        <a title="40oz" href="https://www.youtube.com/watch?v=q3o-l1LVNgw">Polyphia</a>.
+        <a title="Throne of the Anxious" href="https://www.youtube.com/watch?v=hf6JQiQYskE">Stephen Taranto</a>.
+      </p>
+      <p>
+        <strong>Other</strong>.
+        <a title="Would You Be Impressed?" href="https://www.youtube.com/watch?v=A-UTPKL-UGY">Streetlight Manifesto</a> (ska punk).
+        <a title="Dyad" href="https://jamiepaige.bandcamp.com/track/dyad-2">Jamie Paige</a> (electro pop).
+        <a title="Gershwin - Fascinating Rhythm" href="https://www.youtube.com/watch?v=K28H04Y2IdE">Jacob Collier</a> (<em>everything</em>).
+        Anything with <a href="https://en.wikipedia.org/wiki/Konnakol">konnakol</a>.
+      </p>
+    </details>
+    <h2 id=film>Film</h2>
+    <p>
+      My favourite films are Hayao Miyazaki's <a href="https://en.wikipedia.org/wiki/Princess_Mononoke"><em>Princess Mononoke</em></a> and <a href="https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)"><em>Nausicaä of the Valley of the Wind</em></a>.
+    </p>
+    <h2 id=links>Links</h2>
+    <p>
+      <strong>Knowledge</strong>.
+      <a href="https://en.wikipedia.org/">Wikipedia</a>.
+      <a href="https://sci-hub.st/">Sci-Hub</a> and <a href="https://libgen.gs/">Library Genesis</a> (watch out for changing domains).
+      <a href="https://libraryofbabel.info/">Library of Babel</a>.
+    </p>
+    <p>
+      <strong>Mathematics</strong>.
+      <a href="https://ncatlab.org/nlab/show/HomePage">nLab</a>.
+      <a href="https://1lab.dev/">1Lab</a>.
+      <a href="https://unimath.github.io/agda-unimath/">agda-unimath</a>.
+      <a href="https://kerodon.net/">Kerodon</a>.
+      <a href="https://clowderproject.com/">The Clowder Project</a>.
+      <a href="https://thehottgameguide.readthedocs.io/en/latest/">The HoTT Game</a> (may not work with recent versions of Agda, see <a href="https://github.com/thehottgame/TheHoTTGame/pull/17">this pull request</a>).
+    </p>
+    <p>
+      <strong>Nonsense mathematics</strong>.
+      <a href="https://cemulate.github.io/the-mlab/">mLab</a>.
+      <a href="https://baskerville.github.io/typography/">The Art of Baskerville</a>.
+      <a href="https://carloangiuli.com/papers/unintentional.pdf">Unintentional type theory</a>.
+      <a href="https://girard.perso.math.cnrs.fr/mustard/article.html">Mustard watches</a>.
+      <a href="https://ftpmirror1.infania.net/mirror/CTAN/macros/latex/contrib/halloweenmath/halloweenmath-man.pdf">halloweenmath</a>.
+      <a href="https://inutile.club/estatis/falso/">Falso</a>.
+      <a href="https://nguyentito.eu/locus-solum-mscs.pdf">Locus Solum</a>, appendix B.
+    </p>
+    <p>
+      <strong>Tools</strong>.
+      <a href="https://q.uiver.app/">quiver</a>.
+      <a href="https://detexify.kirelabs.org/classify.html">Detexify</a>.
+    </p>
+    <p>
+      <strong>Web comics</strong>.
+      <a href="https://xkcd.com/">xkcd</a>.
+      <a href="https://existentialcomics.com/">Existential comics</a>.
+      <a href="https://www.zviane.com/prout/3003">My infinity is bigger than yours</a>.
+    </p>
+    <p>
+      <strong>Misc</strong>.
+      <a href="http://www.madore.org/~david/zen/">Zen</a>.
+      <a href="https://en.wikipedia.org/wiki/Mu_(negative)">無</a>.
+      <a href="https://en.wikipedia.org/wiki/Jabberwocky">Jabberwocky</a>.
+      <a href="http://fork.wtf">???</a>.
+    </p>
+    <h2 id=people>Cool people</h2>
+    <p>
+      Friends, acquaintances, or people I generally like or admire (<em>non-exhaustive list</em>).
+    </p>
+    <ul>
+      <li><a href="https://amelia.how/">Amélia Liao</a></li>
+      <li><a href="https://math.andrej.com/">Andrej Bauer</a></li>
+      <li><a href="https://a3nm.net/">a3nm (Antoine Amarilli)</a></li>
+      <li><a href="https://beranger-seguin.fr/">Béranger Seguin</a></li>
+      <li><a href="https://grossack.site/">Chris Grossack</a></li>
+      <li><a href="https://cbaberle.com/">Corinthia Beatrix Aberlé</a></li>
+      <li><a href="http://www.madore.org/~david/">Gro-Tsen (David Madore)</a></li>
+      <li><a href="https://dwarn.se/">David Wärn</a></li>
+      <li><a href="https://drewdevault.com/">Drew DeVault</a></li>
+      <li><a href="https://kellett.im/">edk (Ed Kellett)</a></li>
+      <li><a href="https://topological-modular-forms.github.io/">Emily</a></li>
+      <li><a href="https://ecavallo.net/">Evan Cavallo</a></li>
+      <li><a href="https://members.loria.fr/ggamard/">Guilhem Gamard</a></li>
+      <li><a href="https://jean.abou-samra.fr/">Jean Abou Samra</a></li>
+      <li><a href="https://www.jonmsterling.com/">Jon Sterling</a></li>
+      <li><a href="https://nguyentito.eu/">Tito (Lê Thành Dũng Nguyễn)</a></li>
+      <li><a href="https://poisson.chat/">lysxia (Li-yao Xia)</a></li>
+      <li><a href="https://lynn.github.io/">Lynn</a></li>
+      <li><a href="https://matteo.delab.re/en/">Mattéo Delabre</a></li>
+      <li><a href="https://mietek.io/">Miëtek Bak</a></li>
+      <li><a href="https://mniip.com/">mniip</a></li>
+      <li><a href="https://reedmullanix.com/">Reed Mullanix</a></li>
+    </ul>
+    <h2 id=commitments>Commitments</h2>
+    <p>
+      <a style="float: right; margin-left: 20px;" href="https://nofreeviewnoreview.org/"><img src="https://nofreeviewnoreview.org/static/img/nfvnr-button.svg" alt="No free view? No review!" width=200></a>
+      I strongly support open access to research, and have pledged to review only for conferences and journals with open access proceedings.
+    </p>
+    <p>
+      <a href="https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/">I Will Fucking Piledrive You If You Mention AI Again</a>.
+    </p>
   </body>
 </html>
