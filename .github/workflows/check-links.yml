@@ -1,6 +1,7 @@
 name: Check links
 
 on:
+  push:
   repository_dispatch:
   workflow_dispatch:
   schedule:
