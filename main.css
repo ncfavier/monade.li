@@ -3,6 +3,16 @@
     --foreground: black;
     --accent: #9d26ff;
     --accent-background: #f2e1ff;
+
+    font-family: Inter, "Source Han Sans", "Source Sans 3", "Gill Sans", "Trebuchet MS", "Open Sans", Helvetica, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    font-optical-sizing: auto;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, "Source Han Sans", "Source Sans 3", "Gill Sans", "Trebuchet MS", "Open Sans", Helvetica, sans-serif;
+    }
 }
 
 ::selection {
@@ -13,13 +23,11 @@
 body {
     margin: auto;
     padding: 2em 1em;
-    max-width: 50em;
+    max-width: 52rem;
     background-color: var(--background);
     color: var(--foreground);
-    font-family: sans-serif;
-    font-optical-sizing: auto;
     font-size: 1.05em;
-    line-height: 1.3;
+    line-height: 1.2;
     word-break: keep-all;
 }
 
